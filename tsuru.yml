@@ -1,0 +1,9 @@
+php:
+  interpretor:
+    options:
+      modules:
+        - rewrite
+      extensions:
+        - php-mysql
+        - php-gd
+        - php-curl
