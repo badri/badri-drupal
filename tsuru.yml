@@ -1,9 +1,7 @@
 php:
-  interpretor:
+  version: 5.6
+  frontend:
+    name: apache-mod-php
     options:
       modules:
         - rewrite
-      extensions:
-        - php-mysql
-        - php-gd
-        - php-curl
